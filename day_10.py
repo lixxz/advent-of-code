@@ -24,6 +24,7 @@ def no_of_comb(v, l, i):
             if v + n in i:
                 if v + n not in l:
                     l[v + n] = no_of_comb(v + n, l, i)
+                print(l)
                 total += l[v + n]
     return total
 
