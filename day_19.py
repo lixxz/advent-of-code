@@ -29,7 +29,6 @@ def tell_count(d, puzzle_input):
     return count
 
 # part 2
-counter = 0
 d['8'] = '42+'
 s = '42 31 | 42 11 31'
 results = []
